@@ -1,0 +1,10 @@
+package com.example.StudentCRUD.dao;
+
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.StudentCRUD.model.Student;
+
+publicclass StudentRepository implements CrudRepository<Student,Integer>{
+
+}

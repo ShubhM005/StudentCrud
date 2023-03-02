@@ -1,0 +1,7 @@
+package com.example.StudentCRUD.services;
+
+import com.example.StudentCRUD.model.Student;
+
+public interface StudentServices {
+public Student saveStudent(Student student); 
+}
